@@ -12,7 +12,7 @@
   </Overview>
   <Support>https://www.elastic.co/products/elasticsearch</Support>
   <Project>https://github.com/elastic/elasticsearch</Project>
-  <Registry>https://hub.docker.com/r/elastic/elasticsearch</Registry>
+  <Registry>https://docker.elastic.co/elasticsearch/elasticsearch</Registry>
   <Repository>elastic/elasticsearch</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
