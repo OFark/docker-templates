@@ -12,8 +12,8 @@
   </Overview>
   <Support>https://www.elastic.co/products/elasticsearch</Support>
   <Project>https://github.com/elastic/elasticsearch</Project>
-  <Registry>https://hub.docker.com/_/elasticsearch</Registry>
-  <Repository>elasticsearch</Repository>
+  <Registry>https://hub.docker.com/r/elastic/elasticsearch</Registry>
+  <Repository>elastic/elasticsearch</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
