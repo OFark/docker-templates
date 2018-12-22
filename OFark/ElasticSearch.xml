@@ -45,5 +45,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:9200]/</WebUI>
   <Icon>https://www.elastic.co/static/images/elastic-logo-200.png</Icon>
-  <ExtraParams>-e "discovery.type"="single-node" -e "ES_JAVA_OPTS"="-Xms512M -Xmx512M" --ulimit nofile=262144:262144﻿﻿﻿</ExtraParams>
+  <ExtraParams>-e "discovery.type"="single-node" -e "ES_JAVA_OPTS"="-Xms512M -Xmx512M" --ulimit nofile=262144:262144</ExtraParams>
 </Containers>
