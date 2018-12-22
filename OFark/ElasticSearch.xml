@@ -29,11 +29,11 @@
   <Environment>
     <Variable>
       <Name>PUID</Name>
-      <Value>99</Value>
+      <Value>1000</Value>
     </Variable>
     <Variable>
       <Name>PGID</Name>
-      <Value>100</Value>
+      <Value>1000</Value>
     </Variable>
   </Environment>
   <Data>
@@ -44,6 +44,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:9200]/</WebUI>
-  <Icon>https://www.elastic.co/assets/blta09706b1c5cc1e99/elastic-logo-mobile.svg</Icon>
-  <ExtraParams></ExtraParams>
+  <Icon>https://www.elastic.co/static/images/elastic-logo-200.png</Icon>
+  <ExtraParams>"discovery.type"="single﻿-nod﻿e"﻿﻿﻿ "ES_JAVA_OPTS"="-Xms512M -Xmx512M" </ExtraParams>
 </Containers>
