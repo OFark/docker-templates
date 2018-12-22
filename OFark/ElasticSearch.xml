@@ -44,6 +44,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:9200]/</WebUI>
-  <Icon>https://avatars0.githubusercontent.com/u/6764390?s=200&v=4</Icon>
+  <Icon>https://www.elastic.co/assets/blta09706b1c5cc1e99/elastic-logo-mobile.svg</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
