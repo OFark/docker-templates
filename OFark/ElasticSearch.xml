@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/ofark/docker-templates/master/ofark/elasticsearch.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/OFark/docker-templates/master/OFark/ElasticSearch.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Other</Category>
   <Name>ElasticSearch 5</Name>
