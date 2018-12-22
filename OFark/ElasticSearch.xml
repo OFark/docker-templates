@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/ofark/docker-templates/master/ofark/elasticsearch.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Other</Category>
+  <Name>ElasticSearch 5</Name>
+  <Description>
+    Elasticsearch is a distributed, JSON-based search and analytics engine designed for horizontal scalability, maximum reliability, and easy management.
+  </Description>
+  <Overview>
+    Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
+  </Overview>
+  <Support>https://www.elastic.co/products/elasticsearch</Support>
+  <Registry>https://hub.docker.com/_/elasticsearch</Registry>
+  <GitHub>https://github.com/docker-library/elasticsearch</GitHub>
+  <Repository>docker-library/elasticsearch:5.6.14</Repository>
+  <Project>https://github.com/elastic/elasticsearch</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9200</HostPort>
+        <ContainerPort>9200</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/elasticsearch5/data</HostDir>
+      <ContainerDir>/usr/share/elasticsearch/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:9200]/</WebUI>
+  <Icon>https://avatars0.githubusercontent.com/u/6764390?s=200&v=4</Icon>
+  <DonateText />
+  <DonateLink />
+  <DonateImg />
+  <ExtraParams />
+</Containers>
