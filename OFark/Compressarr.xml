@@ -33,7 +33,7 @@
   <Config 
        Type="Path" 
        Name="Config directory" 
-       Target="/config" 
+       Target="/app/config" 
        Default="/mnt/user/appdata/Compressarr" 
        Mode="rw" 
        Description="This is where Compressarr will store it's configuration."
