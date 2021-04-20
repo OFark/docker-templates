@@ -28,7 +28,7 @@
   <Config 
        Type="Path" 
        Name="Config directory" 
-       Target="/app/config" 
+       Target="/config" 
        Default="" 
        Mode="rw" 
        Description="This is where Compressarr will store it's configuration."
