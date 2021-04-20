@@ -29,10 +29,10 @@
        Type="Path" 
        Name="Config directory" 
        Target="/app/config" 
-       Default="/mnt/user/appdata/Compressarr" 
+       Default="" 
        Mode="rw" 
        Description="This is where Compressarr will store it's configuration."
-       Required="true">/mnt/user/appdata/Compressarr</Config>
+       Required="true"></Config>
   <Config 
        Type="Path" 
        Name="Media directory" 
