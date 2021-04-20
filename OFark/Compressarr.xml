@@ -39,8 +39,16 @@
        Target="/media" 
        Default="/mnt/user/Media" 
        Mode="rw" 
-       Description="This needs to be the same as it is of Radarr/Sonarr."
+       Description="This needs to be the same as the root for Radarr/Sonarr. Create more as required"
        Required="true">/mnt/user/Media</Config>
+  <Config 
+       Type="Path" 
+       Name="Output directory" 
+       Target="/output" 
+       Default="/mnt/user/Media/Compressarr" 
+       Mode="rw" 
+       Description="This is an output directory, Radarr/Sonarr needs to see this for importing to work"
+       Required="false">/mnt/user/Media/Compressarr</Config>
   <Config 
        Type="Variable" 
        Name="Debug Level" 
