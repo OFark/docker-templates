@@ -5,10 +5,11 @@
   <Category>MediaApp:Other</Category>
   <Name>Compressarr</Name>
   <Description>
-    A tool that integrates with Radarr and Sonarr and used FFmpeg to recompress items from your library
+    A tool that integrates with Radarr and Sonarr and uses FFmpeg to recompress items from your library
   </Description>
   <Overview>
     Compressarr is an application to take a filtered set of media from Radarr or (eventaully) Sonarr and process it with customisable FFmpeg presets.
+	This is the Apline version supporting limited Intel hardware support. For Nvidia Cuda encoding use the Nvidia version which is 1.4GB using the Ubuntu Core.
   </Overview>
   <Support>https://github.com/OFark/Compressarr/issues</Support>
   <Project>https://github.com/OFark/Compressarr</Project>
@@ -40,7 +41,7 @@
        Default="/mnt/user/Media" 
        Mode="rw" 
        Description="This needs to be the same as the root for Radarr/Sonarr. Create more as required"
-       Required="true">/mnt/user/Media</Config>
+       Required="false">/mnt/user/Media</Config>
   <Config 
        Type="Path" 
        Name="Output directory" 
@@ -49,15 +50,6 @@
        Mode="rw" 
        Description="This is an output directory, Radarr/Sonarr needs to see this for importing to work"
        Required="false">/mnt/user/Media/Compressarr</Config>
-  <Config 
-       Type="Variable" 
-       Name="Debug Level" 
-       Target="Logging__LogLevel__Default" 
-       Default="Warning" 
-       Description="Log Level used to output. https://tinyurl.com/yh3tna6k" 
-       Mask="false" 
-       Display="advanced" 
-       Required="false">Warning</Config>
   <WebUI>http://[IP]:[PORT:8800]/</WebUI>
   <Icon></Icon>
 </Container>
