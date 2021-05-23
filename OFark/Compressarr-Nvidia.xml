@@ -17,7 +17,7 @@
   <WebUI>http://[IP]:[PORT:8800]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/OFark/docker-templates/master/OFark/Compressarr-Nvidia.xml</TemplateURL>
   <Icon/>
-  <ExtraParams/>
+  <ExtraParams>--runtime=nvidia</ExtraParams>
   <PostArgs/>
   <DonateText/>
   <DonateLink/>
