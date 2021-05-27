@@ -34,7 +34,7 @@
 	   Mask="false">
 	</Config>
   </Branch>  
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
