@@ -5,7 +5,7 @@
   <Registry>https://registry.hub.docker.com/r/ofark/compressarr/</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/OFark/Compressarr/issues</Support>
   <Project>https://github.com/OFark/Compressarr</Project>
@@ -34,13 +34,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment>
-    <Variable>
-      <Value>Warning</Value>
-      <Name>Logging__LogLevel__Default</Name>
-      <Mode>{3}</Mode>
-    </Variable>
-  </Environment>
   <Labels/>
   <Config Name="Host Port 1" Target="80" Default="8800" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8800</Config>
   <Config Name="Output directory" Target="/downloads" Default="/mnt/user/Media/Compressarr" Mode="rw" Description="This is an output directory, Radarr/Sonarr needs to match this for importing to work" Type="Path" Display="null" Required="false" Mask="null"></Config>
