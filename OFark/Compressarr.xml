@@ -15,6 +15,13 @@
   <Project>https://github.com/OFark/Compressarr</Project>
   <Registry>https://registry.hub.docker.com/r/ofark/compressarr/</Registry>
   <Repository>ofark/compressarr</Repository>
+  <Branch>
+    <TagDescription>This is the Standard build, limited QSV support, built to be small and light</TagDescription>	
+  </Branch>
+  <Branch>
+	<Tag>nvidia</Tag>
+    <TagDescription>This is the NVidia Ubuntu build, full Cuda support, built with the nightly FFmpeg and weighs in at 1.4GB</TagDescription>
+  </Branch>  
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
