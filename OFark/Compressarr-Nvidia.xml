@@ -7,10 +7,10 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/OFark/Compressarr/issues</Support>
+  <Support>https://forums.unraid.net/topic/109411-support-compressarr/</Support>
   <Project>https://github.com/OFark/Compressarr</Project>
   <Overview>
-    Compressarr is an application to take a filtered set of media from Radarr or (eventaully) Sonarr and process it with customisable FFmpeg presets. It will even attempt to find the best settings for each video.
+    Compressarr is an application to take a filtered set of media from Radarr or (eventually) Sonarr and process it with customisable FFmpeg presets. It will even attempt to find the best settings for each video.
 	This is the Nvidia Hardware accelerated version and uses Ubuntu core, which is around 1.4Gb. There's an alpine version, with only Intel hardware support which is around 300mb.
   </Overview>
   <Category>MediaApp:Other</Category>

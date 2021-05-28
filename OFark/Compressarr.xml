@@ -8,14 +8,13 @@
     A tool that integrates with Radarr and Sonarr and uses FFmpeg to recompress items from your library
   </Description>
   <Overview>
-    Compressarr is an application to take a filtered set of media from Radarr or (eventaully) Sonarr and process it with customisable FFmpeg presets. It will even attempt to find the best settings for each video.
+    Compressarr is an application to take a filtered set of media from Radarr or (eventually) Sonarr and process it with customisable FFmpeg presets. It will even attempt to find the best settings for each video.
 	This is the Apline version supporting limited Intel hardware support. For Nvidia Cuda encoding use the Nvidia version which is 1.4GB using the Ubuntu Core.
   </Overview>
-  <Support>https://github.com/OFark/Compressarr/issues</Support>
+  <Support>https://forums.unraid.net/topic/109411-support-compressarr/</Support>
   <Project>https://github.com/OFark/Compressarr</Project>
   <Registry>https://registry.hub.docker.com/r/ofark/compressarr/</Registry>
   <Icon>https://raw.githubusercontent.com/OFark/Compressarr/master/Compressarr/wwwroot/Logo/Compressarr.svg</Icon>
-  <WebUI>http://[IP]:[PORT:8800]/</WebUI>
   <Repository>ofark/compressarr</Repository>
   <Branch>
     <TagDescription>This is the Standard build, limited QSV hardware support, built to be small and light</TagDescription>	
