@@ -16,7 +16,7 @@
   <Category>MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:8800]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/OFark/docker-templates/master/OFark/Compressarr-Nvidia.xml</TemplateURL>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/OFark/Compressarr/master/Compressarr/wwwroot/Logo/Compressarr.svg</Icon>
   <ExtraParams>--runtime=nvidia</ExtraParams>
   <PostArgs/>
   <DonateText/>

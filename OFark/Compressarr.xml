@@ -14,6 +14,8 @@
   <Support>https://github.com/OFark/Compressarr/issues</Support>
   <Project>https://github.com/OFark/Compressarr</Project>
   <Registry>https://registry.hub.docker.com/r/ofark/compressarr/</Registry>
+  <Icon>https://raw.githubusercontent.com/OFark/Compressarr/master/Compressarr/wwwroot/Logo/Compressarr.svg</Icon>
+  <WebUI>http://[IP]:[PORT:8800]/</WebUI>
   <Repository>ofark/compressarr</Repository>
   <Branch>
     <TagDescription>This is the Standard build, limited QSV hardware support, built to be small and light</TagDescription>	
@@ -70,6 +72,4 @@
        Mode="rw" 
        Description="This is an output directory, Radarr/Sonarr needs to see this for importing to work"
        Required="false">/mnt/user/Media/Compressarr</Config>
-  <WebUI>http://[IP]:[PORT:8800]/</WebUI>
-  <Icon></Icon>
 </Container>
